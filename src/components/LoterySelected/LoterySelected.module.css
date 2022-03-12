@@ -1,0 +1,39 @@
+.lotteries-name {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.lotteries-name {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.lotteries-name figure {
+  margin: 0;
+}
+
+.lotteries-name p {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.contest-number {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contest-number span {
+  font-size: 14px;
+}

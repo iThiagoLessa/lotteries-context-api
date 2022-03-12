@@ -1,0 +1,13 @@
+.select-lotery select {
+  padding: 10px 40px 10px 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.select-lotery {
+  display: flex;
+  justify-content: center;
+  padding: 30px 30px;
+  position: relative;
+}

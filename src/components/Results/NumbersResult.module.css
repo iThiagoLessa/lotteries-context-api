@@ -1,0 +1,129 @@
+.number {
+  background-color: white;
+  border-radius: 100%;
+  padding: 15px;
+  margin: 5px 15px;
+  width: 20px;
+}
+
+.resultsContainer {
+  height: 100%;
+  position: relative;
+}
+
+.resultsInfos > div:nth-child(2) p {
+  text-align: center;
+}
+
+.resultsInfos > div:nth-child(1) {
+  margin-bottom: 20%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.resultsInfos {
+  height: 100%;
+}
+
+@media screen and (max-width: 899px) {
+
+  .resultsInfos {
+    height: 100%;
+    width: 100%;
+    border-radius: 90px/30px;
+    position: relative;
+    display: grid;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: black;
+    z-index: 50;
+  }
+
+  .resultsInfos > div:nth-child(2) {
+    padding: 0 50px;
+  }
+
+  .resultsInfos > div:nth-child(2) p {
+    font-size: 14px;
+  }
+
+  .resultsBackground {
+    background-color: #EFEFEF;
+    height: 200vh;
+    position: absolute;
+    top: 0;
+    border-radius: 100%;
+    left: -500px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .resultsInfos {
+    color: black;
+    z-index: 999;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .resultsInfos > div:nth-child(2) p {
+    font-size: 16px;
+  }
+  
+  .resultsBackground {
+    opacity: 1;
+    background-color: #EFEFEF;
+    position: absolute;
+    height: 200vh;
+    top: -60%;
+    width: 150%;
+    border-radius: 100%;
+  }
+
+  .number {
+    padding: 25px
+  }
+
+  .resultsInfos > div:nth-child(2) {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+  }
+}
+
+
+/* Mobile breakpoints */
+@media screen and (max-width: 370px) {
+  .resultsBackground {
+    width: 410%;
+  }
+}
+
+@media screen and (min-width: 370px) and (max-width: 420px) {
+  .resultsBackground {
+    width: 370%;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 760px) {
+  .resultsBackground {
+    width: 340%;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 900px) {
+  .resultsBackground {
+    width: 238%;
+  }
+}
